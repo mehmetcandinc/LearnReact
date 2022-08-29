@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 
 class Table extends Component {
-    render() {
-      return (
-       <table>
+  render() {
+    return (
+      <table>
         <thead>
-            <tr>
-                <th>Name</th>
-                <th>Job</th>
-            </tr>
+          <tr>
+            <th>Name</th>
+            <th>Job</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Charlie</td>
-                <td>Janitor</td>
-            </tr>
-            <tr>
-                <td>Mac</td>
-                <td>Bouncer</td>
-            </tr>
-            <tr>
+          <tr>
+            <td>Charlie</td>
+            <td>Janitor</td>
+          </tr>
+          <tr>
+            <td>Mac</td>
+            <td>Bouncer</td>
+          </tr>
+          <tr>
             <td>Dee</td>
             <td>Aspiring actress</td>
           </tr>
@@ -28,8 +28,8 @@ class Table extends Component {
             <td>Bartender</td>
           </tr>
         </tbody>
-       </table>   
-      )
-    }
+      </table>
+    );
+  }
 }
-export default Table
+export default Table;
