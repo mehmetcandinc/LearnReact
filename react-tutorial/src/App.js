@@ -3,7 +3,7 @@ import { heading, heading2, heading3 } from "./someExample";
 import Table from "./Table";
 import { TableHeader, TableBody } from "./simpleComponents";
 import Form from "./form";
-import {Example,FavoriteColor }from "./useState";
+import {Example,FavoriteColor,BasicOparations }from "./useState";
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
         <Form/>
         <Example/>
         <FavoriteColor/>
+        <BasicOparations/>
       </div>
     );
   }
