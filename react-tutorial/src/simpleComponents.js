@@ -1,10 +1,11 @@
 import React from "react";
 
-const TableHeader = () => {
+const TableHeader = (props) => {
+    
   return (
     <thead>
       <tr>
-        <th>Name</th>
+        <th>{props.header}</th>
         <th>Job</th>
       </tr>
     </thead>
